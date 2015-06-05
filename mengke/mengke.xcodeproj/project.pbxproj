@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1F4A7901B21ADE8006716EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A78F1B21ADE8006716EC /* main.m */; };
+		A1F4A7931B21ADE8006716EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A7921B21ADE8006716EC /* AppDelegate.m */; };
+		A1F4A7951B21ADE8006716EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F4A7941B21ADE8006716EC /* Images.xcassets */; };
+		A1F4A7981B21ADE8006716EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F4A7961B21ADE8006716EC /* LaunchScreen.xib */; };
+		A1F4A7A41B21ADE8006716EC /* mengkeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A7A31B21ADE8006716EC /* mengkeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1F4A79E1B21ADE8006716EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F4A7821B21ADE8006716EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F4A7891B21ADE8006716EC;
+			remoteInfo = mengke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1F4A78A1B21ADE8006716EC /* mengke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mengke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F4A78E1B21ADE8006716EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F4A78F1B21ADE8006716EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1F4A7911B21ADE8006716EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1F4A7921B21ADE8006716EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1F4A7941B21ADE8006716EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1F4A7971B21ADE8006716EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A1F4A79D1B21ADE8006716EC /* mengkeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mengkeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F4A7A21B21ADE8006716EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F4A7A31B21ADE8006716EC /* mengkeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mengkeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F4A7871B21ADE8006716EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F4A79A1B21ADE8006716EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1F4A7811B21ADE8006716EC = {
+			isa = PBXGroup;
+			children = (
+				A1F4A78C1B21ADE8006716EC /* mengke */,
+				A1F4A7A01B21ADE8006716EC /* mengkeTests */,
+				A1F4A78B1B21ADE8006716EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F4A78B1B21ADE8006716EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4A78A1B21ADE8006716EC /* mengke.app */,
+				A1F4A79D1B21ADE8006716EC /* mengkeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F4A78C1B21ADE8006716EC /* mengke */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4A7911B21ADE8006716EC /* AppDelegate.h */,
+				A1F4A7921B21ADE8006716EC /* AppDelegate.m */,
+				A1F4A7941B21ADE8006716EC /* Images.xcassets */,
+				A1F4A7961B21ADE8006716EC /* LaunchScreen.xib */,
+				A1F4A78D1B21ADE8006716EC /* Supporting Files */,
+			);
+			path = mengke;
+			sourceTree = "<group>";
+		};
+		A1F4A78D1B21ADE8006716EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4A78E1B21ADE8006716EC /* Info.plist */,
+				A1F4A78F1B21ADE8006716EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1F4A7A01B21ADE8006716EC /* mengkeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4A7A31B21ADE8006716EC /* mengkeTests.m */,
+				A1F4A7A11B21ADE8006716EC /* Supporting Files */,
+			);
+			path = mengkeTests;
+			sourceTree = "<group>";
+		};
+		A1F4A7A11B21ADE8006716EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4A7A21B21ADE8006716EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1F4A7891B21ADE8006716EC /* mengke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F4A7A71B21ADE8006716EC /* Build configuration list for PBXNativeTarget "mengke" */;
+			buildPhases = (
+				A1F4A7861B21ADE8006716EC /* Sources */,
+				A1F4A7871B21ADE8006716EC /* Frameworks */,
+				A1F4A7881B21ADE8006716EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mengke;
+			productName = mengke;
+			productReference = A1F4A78A1B21ADE8006716EC /* mengke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1F4A79C1B21ADE8006716EC /* mengkeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F4A7AA1B21ADE8006716EC /* Build configuration list for PBXNativeTarget "mengkeTests" */;
+			buildPhases = (
+				A1F4A7991B21ADE8006716EC /* Sources */,
+				A1F4A79A1B21ADE8006716EC /* Frameworks */,
+				A1F4A79B1B21ADE8006716EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F4A79F1B21ADE8006716EC /* PBXTargetDependency */,
+			);
+			name = mengkeTests;
+			productName = mengkeTests;
+			productReference = A1F4A79D1B21ADE8006716EC /* mengkeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1F4A7821B21ADE8006716EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = mengke;
+				TargetAttributes = {
+					A1F4A7891B21ADE8006716EC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A1F4A79C1B21ADE8006716EC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A1F4A7891B21ADE8006716EC;
+					};
+				};
+			};
+			buildConfigurationList = A1F4A7851B21ADE8006716EC /* Build configuration list for PBXProject "mengke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1F4A7811B21ADE8006716EC;
+			productRefGroup = A1F4A78B1B21ADE8006716EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1F4A7891B21ADE8006716EC /* mengke */,
+				A1F4A79C1B21ADE8006716EC /* mengkeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1F4A7881B21ADE8006716EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F4A7981B21ADE8006716EC /* LaunchScreen.xib in Resources */,
+				A1F4A7951B21ADE8006716EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F4A79B1B21ADE8006716EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F4A7861B21ADE8006716EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F4A7931B21ADE8006716EC /* AppDelegate.m in Sources */,
+				A1F4A7901B21ADE8006716EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F4A7991B21ADE8006716EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F4A7A41B21ADE8006716EC /* mengkeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F4A79F1B21ADE8006716EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F4A7891B21ADE8006716EC /* mengke */;
+			targetProxy = A1F4A79E1B21ADE8006716EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1F4A7961B21ADE8006716EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F4A7971B21ADE8006716EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1F4A7A51B21ADE8006716EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1F4A7A61B21ADE8006716EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1F4A7A81B21ADE8006716EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mengke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1F4A7A91B21ADE8006716EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mengke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1F4A7AB1B21ADE8006716EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mengkeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mengke.app/mengke";
+			};
+			name = Debug;
+		};
+		A1F4A7AC1B21ADE8006716EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mengkeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mengke.app/mengke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1F4A7851B21ADE8006716EC /* Build configuration list for PBXProject "mengke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F4A7A51B21ADE8006716EC /* Debug */,
+				A1F4A7A61B21ADE8006716EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F4A7A71B21ADE8006716EC /* Build configuration list for PBXNativeTarget "mengke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F4A7A81B21ADE8006716EC /* Debug */,
+				A1F4A7A91B21ADE8006716EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1F4A7AA1B21ADE8006716EC /* Build configuration list for PBXNativeTarget "mengkeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F4A7AB1B21ADE8006716EC /* Debug */,
+				A1F4A7AC1B21ADE8006716EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1F4A7821B21ADE8006716EC /* Project object */;
+}
